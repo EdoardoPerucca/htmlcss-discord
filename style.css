@@ -91,8 +91,7 @@ main {
     max-width: 1000px;
     height: auto;
     margin-left: auto;
-    margin-right: auto;
-   
+    margin-right: auto; 
     align-items: center;
     flex-direction: column;
     gap: 100px;
@@ -114,7 +113,7 @@ main {
 }
 
 .text-1 {
-    
+    display: flex;
     height: 350px;
     color: black;
     vertical-align: middle;   
@@ -188,6 +187,7 @@ main {
     flex-direction: column;
     gap: 20px;
     background-color: #f6f6f6;
+    padding-bottom: 80px;
 }
 
 h3 {
@@ -202,30 +202,40 @@ h3 {
     border: none;
     background-color: #7289da;
     color: white;
-    ;
 }
 
 footer {
-    width: 100%;
-    height: 100%;
-    margin-top: 50px;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;  
+   background-color: #23272a;
+    
 }
 
-.nav-footer {
-    width: 1000px;
-    height: auto;
+#nav-footer {
     display: flex;
     flex-direction: row;
-    align-items: flex-start; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between; 
+    font-size: small; 
+    padding-top: 50px;
+    color: white;
+    max-width: 1000px;
 }
 
-.chat {
-    width: 250px;
-    height: 200px;
-    background-color: blueviolet;
+#footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100px;
+     
+}
+
+#nav-footer #footer-left #bandiera-ita {
+    width: 20px;
+    height: 20px;
+}
+
+#footer-link {
+    color: #7289da;
 }
 
 .product ul {
@@ -239,7 +249,6 @@ footer {
     flex-direction: column;
     width: 100px;
     height: 30px;
-    background-color: blueviolet; 
 }
 
 .company ul {
@@ -252,7 +261,6 @@ footer {
 .company li {
     width: 100px;
     height: 30px;
-    background-color: blueviolet;
 }
 
 .resources ul {
@@ -265,7 +273,6 @@ footer {
 .resources li {
     width: 100px;
     height: 30px;
-    background-color: blueviolet;  
 }
 
 .norms ul {
@@ -278,7 +285,35 @@ footer {
 .norms li {
     width: 100px;
     height: 30px;
-    background-color: blueviolet;  
 }
 
- */
+hr {
+    margin-bottom: 10px;
+}
+
+footer #footer-bottom {
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#footer-logo {
+    display: flex;
+}
+
+#button-footer {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: none;
+    
+}
+
+
+
