@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Discord</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -16,50 +19,44 @@
 
     <header>
 
-       
-        
-        
-        
-            <div id="container-links">
+        <div id="container-links">
 
-                <div id="logo">
-
-                    <img src="img/logo.svg" alt="logo">
-                    
-                </div>
-
-                <div id="links">
-                    <ul>
-                        <li>Scarica</li>
-                        <li>Perchè Discord</li>
-                        <li>Nitro</li>
-                        <li>Sicurezza</li>
-                        <li>Assistenza</li>
-                    </ul>
-                </div>
-            
-                <div id="login">
-                    <button>Accedi</button>
-                </div>
-
+            <div id="logo">
+                <img src="img/logo.svg" alt="logo">           
             </div>
 
+            <div id="links">
+                <ul>
+                    <li>Scarica</li>
+                    <li>Perchè Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                </ul>
+            </div>
+        
+            <div id="login">
+                <button>Accedi</button>
+            </div>
 
-            <div id="container-title">
+        </div>
 
-                <h1>Il tuo posto per parlare</h1>
+
+        <div id="container-title">
+
+            <h1>Il tuo posto per parlare</h1>
             
-
             <p class="header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid aspernatur dolorem dolores consequuntur quaerat et impedit repudiandae necessitatibus id quasi laborum officia!</p>
 
             <button id="button-scarica" type="button">&#8595 Scarica per Mac</button>
             <button id="button-apri" type="button">Apri Discord nel tuo browser</button>
-            
-            </div>
-
-       
+        
+        </div>
+ 
     
     </header>
+
+    <!--/header -->
    
     <!-- main -->
 
@@ -67,8 +64,9 @@
 
         <section class="section-1">
             <div class="img-1">
-                <img src="img/item1.svg" alt="immagine-rana">
+                <img class="img.inner" src="img/item1.svg" alt="immagine-rana">
             </div>
+
             <div class="text-1">
                 <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
                 <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus optio totam cum necessitatibus sint asperiores sit distinctio laudantium accusamus!</p>
@@ -77,8 +75,9 @@
 
         <section class="section-2">
             <div class="img-2">
-                <img src="img/item2.svg" alt="immagine-mago">
+                <img class="img.inner" src="img/item2.svg" alt="immagine-mago">
             </div>
+
             <div class="text-2">
                 <h2>Dove trovarsi è facile</h2>
                 <p class="main-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae blanditiis aut earum repudiandae, mollitia nam distinctio dolores enim iusto error eaque ab.</p>
@@ -87,8 +86,9 @@
 
         <section class="section-3">
             <div class="img-3">
-                <img src="img/item3.svg" alt="immagine-fandom">
+                <img class="img.inner" src="img/item3.svg" alt="immagine-fandom">
             </div>
+
             <div class="text-3">
                 <h2>Da pochi ha un fandom</h2>
                 <p class="main-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora provident saepe eaque itaque architecto suscipit vero omnis asperiores sint, ex voluptas</p>
@@ -100,6 +100,7 @@
                 <h2>Tecnoligia affidabile per tenersi in contatto</h2>
                 <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae necessitatibus dolores, non incidunt esse quae nulla fugit. Blanditiis quas a animi? Officia voluptates beatae ipsa voluptas nisi, sit debitis tempore.</p>
             </div>
+
             <div class="img-4">            
                 <img src="img/item4-big.svg" alt="immagine-finale">
             </div>
@@ -123,13 +124,19 @@
 
             <div id="footer-left">
                 <h4>Il tuo posto per parlare</h4>
-                <img id="bandiera-ita" src="img/ita.png" alt="bandiera-ita">
-                <div class="italiano">Italiano</div>
+
+                <div>
+                    <img id="bandiera-ita" src="img/ita.png" alt="bandiera-ita"><span> Italiano</span><span> <i class="fas fa-chevron-down"></i></span>                   
+                </div>
+
+                <div class="footer-icon">
+                    <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-youtube"></i>
+                </div>
             </div>
 
             <div class="product">
                 <ul>
-                    <li id="footer-link">Prodotto</li>
+                    <li class="footer-link">Prodotto</li>
                     <li>Scarica</li>
                     <li>Perchè Discord</li>
                     <li>NItro</li>
@@ -140,7 +147,7 @@
 
             <div class="company">
                 <ul>
-                    <li id="footer-link">Compagnia</li>
+                    <li class="footer-link">Compagnia</li>
                     <li>Chi Siamo</li>
                     <li>Lavora con noi</li>
                     <li>Marchio</li>
@@ -151,7 +158,7 @@
 
             <div class="resources">
                 <ul>
-                    <li id="footer-link">Risorse</li>
+                    <li class="footer-link">Risorse</li>
                     <li>Scarica</li>
                     <li>Perchè Discord</li>
                     <li>Nitro</li>
@@ -167,7 +174,7 @@
 
             <div class="norms">
                 <ul>
-                    <li id="footer-link">Norme</li>
+                    <li class="footer-link">Norme</li>
                     <li>Scarica</li>
                     <li>Perchè Discord</li>
                     <li>Nitro</li>
@@ -175,10 +182,12 @@
                     <li>Assistenza</li>
                 </ul>
             </div>
-           
+                     
         </div>
 
-        <hr>
+   
+      <hr>
+       
 
         <div id="footer-bottom">
 
@@ -191,8 +200,6 @@
             </div>
 
         </div>
-
-    </div>
 
     </footer>
 

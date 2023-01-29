@@ -28,19 +28,23 @@ header {
     justify-content: space-between;
 }
 
+
 #container-links ul {
     list-style-type: none;
 }
+
 
 #logo {  
     width: 70px;
     height: 30px;     
 }
 
+
 #links {
     display: flex;  
     align-items: stretch; 
 }
+
 
 #links ul {
     display: flex;
@@ -49,9 +53,11 @@ header {
     gap: 20px;           
 }
 
+
 #links li {  
     color: white;   
 }
+
 
 #login button {
     width: 80px;
@@ -59,6 +65,7 @@ header {
     border-radius: 100px;
     border: none;    
 }
+
 
 #container-title {
     max-width: 1200px;
@@ -69,17 +76,19 @@ header {
     font-size: 25px;
 }
 
+
 h1 {
     color: white;
 }
+
 
 .header-p {
     padding-top: 30px;
     padding-bottom: 20px; 
     color: white;
-    line-height: 40px;
-    
+    line-height: 40px; 
 }
+
 
 #button-scarica {
     width: 180px;
@@ -89,6 +98,7 @@ h1 {
     border: none;
     font-size: 17px;
 }
+
 
 #button-apri {
     width: 250px;
@@ -102,8 +112,7 @@ h1 {
 
 
 main {
-    display: flex;
-    
+    display: flex; 
     height: auto;
     margin-left: auto;
     margin-right: auto; 
@@ -113,43 +122,51 @@ main {
     margin-top: 50px;
 }
 
+
 .main-p {
-    padding-top: 20px;
-    
+    padding-top: 20px;  
     color: black;
-    line-height: 30px;
-    
+    line-height: 30px; 
 }
+
 
 .section-1 {
     display: flex; 
     flex-direction: row;
     align-items: center;
     gap: 30px; 
-    max-width: 1400px;    
+    max-width: 1400px;   
 }
 
+
+.img-inner {
+    background-size: cover;
+}
+
+
 .img-1 {
-    display: flex;   
+    display: flex;  
+    justify-content: center; 
     padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 500px;
+    min-width: 700px;
+    min-height: 500px;
 }
+
 
 .text-1 {
     display: flex;
-    flex-direction: column;
-    height: 350px;
+    flex-direction: column;  
     color: black;
     vertical-align: middle; 
     flex-grow: 1;
-    
 }
 
 
 h2 {
     padding-bottom: 20px;
     font-size: 40px;
+    font-size: 50px;
 }
 
 
@@ -161,17 +178,24 @@ h2 {
     max-width: 1400px;  
 }
 
+
 .img-2 {
     display: flex;
+    justify-content: center; 
     padding-top: 20px;
     padding-bottom: 20px;  
+    min-width: 900px;
+    min-height: 500px;
 }
+
 
 .text-2 {
     height: 350px;
     color: black;
-    vertical-align: middle; 
+    vertical-align: middle;
+    flex-grow: 1; 
 }
+
 
 .section-3 {
     display: flex; 
@@ -181,17 +205,24 @@ h2 {
     max-width: 1400px;
 }
 
+
 .img-3 {
-    display: flex;   
+    display: flex;  
+    justify-content: center;  
     padding-top: 20px;
     padding-bottom: 20px;
+    min-width: 900px;
+    min-height: 500px;
 }
+
 
 .text-3 {
     height: 350px;
     color: black;
     vertical-align: middle; 
+    flex-grow: 1;
 }
+
 
 .section-4 {
     display: flex;
@@ -199,13 +230,15 @@ h2 {
     align-items: center;
     gap: 30px; 
     min-width: 1400px;
-    background-color: #f6f6f6;
+    height: auto;
 }
 
+
 .img-4 {     
-    
+    background-image: cover;
     padding-bottom: 20px;
 }
+
 
 .text-4 {  
     text-align: center;
@@ -215,32 +248,30 @@ h2 {
 
 .section-5 {
     display: flex;
-    align-items: center;
-    
-    max-width: 450px;
+    align-items: center; 
+    min-width: 450px;
     margin-left: auto;
     margin-right: auto;  
     text-align: center;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 20px; 
     padding-bottom: 80px;
-
     background-image: url(img/stars.svg);
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-
+    max-width: 1400px;
 }
+
 
 .pronto-avventura {
     padding-top: 40px;
     font-size: 25px;
 }
 
+
 h3 {
     text-align: center;
 }
+
 
 #button-scarica-main {
     width: 150px;
@@ -252,10 +283,11 @@ h3 {
     color: white;
 }
 
+
 footer {
-   background-color: #23272a;
-    
+   background-color: #23272a; 
 }
+
 
 #nav-footer {
     display: flex;
@@ -266,31 +298,47 @@ footer {
     font-size: small; 
     padding-top: 50px;
     color: white;
-    max-width: 1000px;
+    max-width: 1400px;
 }
+
 
 #footer-left {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
     height: 100px;
-     
+    gap: 10px;   
 }
+
+
+h4 {
+    font-size: 30px;
+    color: #7289da;
+}
+
+
+.footer-icon {
+    font-size: 30px;
+}
+
 
 #nav-footer #footer-left #bandiera-ita {
     width: 20px;
     height: 20px;
 }
 
-#footer-link {
+
+.footer-link {
     color: #7289da;
 }
+
 
 .product ul {
     display: flex;
     flex-direction: column;
     gap: 5px; 
 }
+
 
 .product li {
     display: flex;
@@ -299,6 +347,7 @@ footer {
     height: 30px;
 }
 
+
 .company ul {
     display: flex;
     flex-direction: column;
@@ -306,10 +355,12 @@ footer {
     list-style-type: none;
 }
 
+
 .company li {
     width: 100px;
     height: 30px;
 }
+
 
 .resources ul {
     display: flex;
@@ -318,10 +369,12 @@ footer {
     list-style-type: none;
 }
 
+
 .resources li {
     width: 100px;
     height: 30px;
 }
+
 
 .norms ul {
     display: flex;
@@ -330,37 +383,40 @@ footer {
     list-style-type: none;
 }
 
+
 .norms li {
     width: 100px;
     height: 30px;
 }
 
-hr {
-    margin-bottom: 10px;
-}
 
-footer #footer-bottom {
+#footer-bottom {
     display: flex;
-    width: 1000px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-top: 15px;
 }
+
 
 #footer-logo {
     display: flex;
 }
 
+
 #button-footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80px;
     height: 30px;
     margin-right: 10px;
     border-radius: 100px;
     border: none;
-    
+    background-color: #7289da;
+    color: white;
 }
 
 
